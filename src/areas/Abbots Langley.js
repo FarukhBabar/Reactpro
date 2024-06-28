@@ -12,7 +12,7 @@ const AbbotsLangley = () => {
           id='meta-description'
           content="Descripion of Areas Page"
         />
-        <meta name="robots" content="noindex, unfollow" />
+        <meta name="robots" content="noindex, nofollow" />
       </Helmet>
       <AreasPage
       mergedHeaderStyle="tr"

@@ -28,7 +28,7 @@ const AreasPage = ({ pageTitle, ...otherProps }) => {
           id='meta-description'
           content="Descripion of Areas Page"
         />
-        <meta name="robots" content="noindex, unfollow" />
+        <meta name="robots" content="noindex, nofollow" />
       </Helmet>
      {/* Banner Section */}
      <header className={mergedHeaderStyle}>
