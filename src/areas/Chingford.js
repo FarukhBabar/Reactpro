@@ -1,10 +1,20 @@
 import React from 'react'
 import AreasPage from "../AreasPage";
 import About1 from "../assets/images/about1.png";
+import { Helmet } from 'react-helmet';
 
 const Chingford = () => {
   return (
     <>
+    <Helmet>
+        <title id='meta-title'>Areas Page</title>
+        <meta
+          name="description"
+          id='meta-description'
+          content="Descripion of Areas Page"
+        />
+        <meta name="robots" content="noindex, unfollow" />
+      </Helmet>
       <AreasPage
       mergedHeaderStyle="tr"
       // Text
