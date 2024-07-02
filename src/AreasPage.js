@@ -58,7 +58,7 @@ const AreasPage = ({ pageTitle, ...otherProps }) => {
               </ul>
               {paraOne}
               <div>
-              <a href="tel:+442035041723" className="btn btn-success" style={{ textDecoration: 'none', color: 'white' }}>
+              <a href="tel:+44 7441428174" className="btn btn-success" style={{ textDecoration: 'none', color: 'white' }}>
                 Call Now
               </a>
               </div>
