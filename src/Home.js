@@ -65,7 +65,7 @@ const Home = () => {
                 {/* <div className="text-white"><i className="fa-solid fa-circle-check"></i> &nbsp; Breakdown</div>
                 <div className="text-white"><i className="fa-solid fa-circle-check"></i> &nbsp; Flat Tyres</div> */}
             </div>
-            <a href="tel: +442033939473" class="btn btn-success btn-md btn-pill mt-2">Give Us A Call</a>
+            <a href="tel: +44 7441428174" class="btn btn-success btn-md btn-pill mt-2">Give Us A Call</a>
         </div>
       </section>
 
