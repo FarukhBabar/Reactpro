@@ -78,7 +78,7 @@ const Footer = () => {
                   <strong>Phone:</strong> <a href="tel: +44 7441428174" style={{textDecoration:'none', color: 'white'}}>+44 7441428174</a>
                 </div>
                 <div className="mb-3">
-                  <strong>Email:</strong> <a href="mailto:info@protyrefitters.com" style={{textDecoration:'none', color: 'white'}}>info@protyrefitters.com</a>
+                  <strong>Email:</strong> <a href="mailto:info@protyrefitters.co.uk" style={{textDecoration:'none', color: 'white'}}>info@protyrefitters.co.uk</a>
                 </div>
                 <Link to="/contact" className="btn btn-success">
                   Contact Us

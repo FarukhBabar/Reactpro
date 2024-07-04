@@ -9,6 +9,7 @@ import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import Accordion from 'react-bootstrap/Accordion';
 import { useCanonical } from "./canonical";
+import FAQ from "./assets/images/banners/FAQ.jpg";
 
 export default function WithContactForm() {
   const { setCanonicalUrl } = useCanonical();
@@ -50,7 +51,7 @@ export default function WithContactForm() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       {/* Banner Section */}
-      <header className="headerStyle">
+      <header className="headerStyle" style={{ backgroundImage: `url(${FAQ})` }}>
         <h1>Faq Page</h1>
         <h5>
           <Link to="/" className="linkStyle">

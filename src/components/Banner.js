@@ -36,7 +36,7 @@ const Banner = () => {
                     <span className="d-block text-white">
                       For Email Enquiry
                     </span>
-                    <h5><a href="mailto:info@protyrefitters.com" className="tc-text-color" style={{textDecoration:'none'}}>info@protyrefitters.com</a></h5>
+                    <h5><a href="mailto:info@protyrefitters.co.uk" className="tc-text-color" style={{textDecoration:'none'}}>info@protyrefitters.co.uk</a></h5>
                     <span className="d-block text-white">
                       We are present 24/7
                     </span>

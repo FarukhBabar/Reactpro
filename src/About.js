@@ -69,7 +69,7 @@ function About() {
         </Row>
         <div className="para-width mx-auto">
           <p>
-            Pro Tyre Fitters is a platform that provides you with the best
+           <Link to='/'>Pro Tyre Fitters</Link>  is a platform that provides you with the best
             services for your tyres that make your journey easier or more
             convenient. We understand that a weak and damaged vehicle becomes a
             safety issue for you throughout the journey. To ensure your safety,
@@ -93,7 +93,7 @@ function About() {
               physical stress of taking the car to the garage. They immediately
               reach the spot, control the situation, reduce your stress and
               solve the problem quickly. They serve you at home to keep you
-              stress-free, fix tyre problems at the office to save your work
+              stress-free, fix <Link to='/services/mobile-tyre-repair'>tyre problems</Link>  at the office to save your work
               schedule from disruption, and save you on the roadside. Our
               experts save you time, energy and money by providing excellent
               services at your desired location.
@@ -114,8 +114,8 @@ function About() {
             <p>
               We aim to be a part of your journey and provide impeccable service
               that ensures your journey is smooth and easy. Our professionals
-              are ready to handle any tyre-related problem, from flat to burst
-              tyres; they tackle all issues efficiently. They are always
+              are ready to handle any tyre-related problem, from flat to <Link to='/services/burst-tyre'>burst
+              tyres</Link> ; they tackle all issues efficiently. They are always
               prepared to help you no matter the time. They reach the spot even
               in the middle of the night and in bad weather. They always come
               with a complete tool kit and essential tyre accessories. They

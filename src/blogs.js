@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
 import { Helmet } from "react-helmet";
 import { useCanonical } from "./canonical";
+import Blogs from "./assets/images/banners/Blogs.jpg";
 
 const blogPosts = [
   {
@@ -59,7 +60,7 @@ function BlogPage() {
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
       {/* Banner Section */}
-      <header className='headerStyle blog_banner'>
+      <header className='headerStyle'  style={{ backgroundImage: `url(${Blogs})` }}>
         <h1>Blogs</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Blogs</h5>
       </header>

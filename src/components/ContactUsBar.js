@@ -27,7 +27,7 @@ const ContactUsBar = () => {
               <h5 className="mt-3 text-success">Get in Touch</h5>
               <p className="text-center">
                 <b>+44 7441428174</b> <br />
-                info@protyrefitters.com <br />
+                info@protyrefitters.co.uk <br />
               </p>
             </Col>
             <Col
