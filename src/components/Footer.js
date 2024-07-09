@@ -75,7 +75,7 @@ const Footer = () => {
               <div className="d-flex flex-column align-items-start">
                 <h4 className="mb-3">Contact Information</h4>
                 <div className="mb-2">
-                  <strong>Phone:</strong> <a href="tel: +44 7441428174" style={{textDecoration:'none', color: 'white'}}>+44 7441428174</a>
+                  <strong>Phone:</strong> <a href="tel: +07441428174" style={{textDecoration:'none', color: 'white'}}>07441428174</a>
                 </div>
                 <div className="mb-3">
                   <strong>Email:</strong> <a href="mailto:info@protyrefitters.co.uk" style={{textDecoration:'none', color: 'white'}}>info@protyrefitters.co.uk</a>
