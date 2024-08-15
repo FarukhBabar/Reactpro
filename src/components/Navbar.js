@@ -210,7 +210,7 @@ function Navbar({ activeClassName, ...props }) {
 
                     <Link to="/areas/ilford" className="dropdown-item" onClick={handleNavCollapse}>London - Ilford</Link>
                     <Link to="/areas/edmonton" className="dropdown-item" onClick={handleNavCollapse}>London - Edmonton</Link>
-                    <Link to="/areas/wangsted" className="dropdown-item" onClick={handleNavCollapse}>London - Wangsted</Link>
+                    <Link to="/areas/wanstead" className="dropdown-item" onClick={handleNavCollapse}>London - Wanstead</Link>
                     <Link to="/areas/chingford" className="dropdown-item" onClick={handleNavCollapse}>London - Chingford</Link>
                     <Link to="/areas/woodford-green" className="dropdown-item" onClick={handleNavCollapse}>London - Woodford Green</Link>
                     <Link to="/areas/barnet" className="dropdown-item" onClick={handleNavCollapse}>London - Barnet</Link>
@@ -402,44 +402,45 @@ function Navbar({ activeClassName, ...props }) {
                         <div className="dropdown-menu m-0">
                           {/* Dropend */}
                           <div className="btn-group px-4 dropdown-hover">
-                            <button className="btn harea-btn">
-                              <div className="d-flex justify-content-center align-items-center">
-                                Hertfordshire <small><i className="fa-solid fa-greater-than fa-3xs"></i></small>
-                              </div>
-                            </button>
-                            <ul className="harea-menu mt-4 rounded">
-                              <Link to="/areas/st-albans" className="dropdown-item">St-Albans</Link>
-                              <Link to="/areas/luton" className="dropdown-item">Luton</Link>
-                              <Link to="/areas/harlow" className="dropdown-item">Harlow</Link>
-                              <Link to="/areas/hatfield" className="dropdown-item">Hatfield</Link>
-                              <Link to="/areas/potters-bar" className="dropdown-item">Potters Bar</Link>
-                              <Link to="/areas/hemelhempstead" className="dropdown-item">Hemel Hempstead</Link>
-                              <Link to="/areas/cheshunt" className="dropdown-item">Cheshunt</Link>
-                              <Link to="/areas/codicote" className="dropdown-item">Codicote</Link>
-                              <Link to="/areas/londoncolney" className="dropdown-item">London Colney</Link>
-                              <Link to="/areas/kingslangley" className="dropdown-item">Kings Langley</Link>
-                              <Link to="/areas/wheathampstead" className="dropdown-item">Wheathampstead</Link>
-                              <Link to="/areas/abbotslangley" className="dropdown-item">Abbots Langley</Link>
-                              <Link to="/areas/broxbourne" className="dropdown-item">Broxbourne</Link>
-                              <Link to="/areas/borehamwood" className="dropdown-item">Borehamwood</Link>
-                              <Link to="/areas/southmimms" className="dropdown-item">South Mimms</Link>
-                              <Link to="/areas/cuffley" className="dropdown-item">Cuffley</Link>
-                              <Link to="/areas/ware" className="dropdown-item">Ware</Link>
-                            </ul>
-                          </div>
+  <button className="btn harea-btn">
+    <div className="d-flex justify-content-center align-items-center">
+      Hertfordshire <small><i className="fa-solid fa-greater-than fa-3xs"></i></small>
+    </div>
+  </button>
+  <ul className="harea-menu mt-4 rounded scrollable-dropdown">
+    <Link to="/areas/st-albans" className="dropdown-item">St-Albans</Link>
+    <Link to="/areas/luton" className="dropdown-item">Luton</Link>
+    <Link to="/areas/harlow" className="dropdown-item">Harlow</Link>
+    <Link to="/areas/hatfield" className="dropdown-item">Hatfield</Link>
+    <Link to="/areas/potters-bar" className="dropdown-item">Potters Bar</Link>
+    <Link to="/areas/hemelhempstead" className="dropdown-item">Hemel Hempstead</Link>
+    <Link to="/areas/cheshunt" className="dropdown-item">Cheshunt</Link>
+    <Link to="/areas/codicote" className="dropdown-item">Codicote</Link>
+    <Link to="/areas/londoncolney" className="dropdown-item">London Colney</Link>
+    <Link to="/areas/kingslangley" className="dropdown-item">Kings Langley</Link>
+    <Link to="/areas/wheathampstead" className="dropdown-item">Wheathampstead</Link>
+    <Link to="/areas/abbotslangley" className="dropdown-item">Abbots Langley</Link>
+    <Link to="/areas/broxbourne" className="dropdown-item">Broxbourne</Link>
+    <Link to="/areas/borehamwood" className="dropdown-item">Borehamwood</Link>
+    <Link to="/areas/southmimms" className="dropdown-item">South Mimms</Link>
+    <Link to="/areas/cuffley" className="dropdown-item">Cuffley</Link>
+    <Link to="/areas/ware" className="dropdown-item">Ware</Link>
+  </ul>
+</div>
+
                           {/* Dropend */}
 
                           {/* Dropend */}
                           <div className="btn-group px-4 dropdown-hover">
-                            <button className="btn harea-btn">
                               <div className="d-flex justify-content-center align-items-center">
-                                London <small><i className="fa-solid fa-greater-than fa-2xs"></i></small>
-                              </div>
+                            <button className="btn harea-btn">
+                                London  <i className="fa-solid fa-greater-than fa-3xs"></i>
                             </button>
+                              </div>
                             <ul className="harea-menu mt-4 rounded">
                               <Link to="/areas/ilford" className="dropdown-item">Ilford</Link>
                               <Link to="/areas/edmonton" className="dropdown-item">Edmonton</Link>
-                              <Link to="/areas/wangsted" className="dropdown-item">Wangsted</Link>
+                              <Link to="/areas/wanstead" className="dropdown-item">Wanstead</Link>
                               <Link to="/areas/chingford" className="dropdown-item">Chingford</Link>
                               <Link to="/areas/woodford-green" className="dropdown-item">Woodford Green</Link>
                               <Link to="/areas/barnet" className="dropdown-item">Barnet</Link>

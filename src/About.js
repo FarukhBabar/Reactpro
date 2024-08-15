@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import About1 from "./assets/images/about1.png";
+import About1 from "./assets/images/about1.jpg";
 import About2 from "./assets/images/about2.png";
 import About3 from "./assets/images/about3.png";
 import BG from "./assets/images/banners/bg.png";

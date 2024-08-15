@@ -1,6 +1,6 @@
 import React from 'react'
 import AreasPage from "../AreasPage";
-import About1 from "../assets/images/about1.png";
+import About1 from "../assets/images/about1.jpg";
 import { Helmet } from 'react-helmet';
 
 const Cuffley = () => {
@@ -16,9 +16,9 @@ const Cuffley = () => {
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
       <AreasPage
-      mergedHeaderStyle="tr"
+      mergedHeaderStyle="tr areas"
       // Text
-      pageTitle="Cuffley"
+   
       firstHeading='Amica & Commode Mobile Tyre Fitting Cuffley.'
       secondHeading="Mobile Tyre Fitting in & Around Cuffley"
       img1={About1}

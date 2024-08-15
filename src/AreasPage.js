@@ -7,17 +7,12 @@ const AreasPage = ({ pageTitle, ...otherProps }) => {
     const {
         mergedHeaderStyle,
         firstHeading,
+       
         secondHeading,
         img1,
-        lione,
-        litwo,
-        lithree,
-        lifour,
-        lifive,
-        lisix,
+        
         paraOne,
-        thirdHeading,
-        paraTwo,
+       
       } = otherProps;
     return (
     <>
@@ -34,29 +29,23 @@ const AreasPage = ({ pageTitle, ...otherProps }) => {
      <header className={mergedHeaderStyle}>
         <h1>{pageTitle}</h1>
         <h5>
-          <Link to="/" className="linkStyle">
+          {/* <Link to="/" className="linkStyle">
             <i class="fa-solid fa-house"></i> Home{" "}
-          </Link>{" "}
-          | {pageTitle}
+          </Link>{" "} */}
+           {pageTitle}
         </h5>
       </header>
 
       <section>
-       <h2 className="text-center">{firstHeading}</h2> 
+       <h2 className="text-center mt-3">{firstHeading}</h2> 
+
        <Container className="py-5">
         <Row style={{ marginTop: "2.5rem" }}>
           <Col md={6}>
             <h2 className="text-success">{secondHeading}</h2>
             <p>
-              <ul>
-                <li>{lione}</li>
-                <li>{litwo}</li>
-                <li>{lithree}</li>
-                <li>{lifour}</li>
-                <li>{lifive}</li>
-                <li>{lisix}</li>
-              </ul>
-              {paraOne}
+             
+            <p dangerouslySetInnerHTML={{ __html: paraOne }}></p>
               <div>
               <a href="tel:07441428174" className="btn btn-success" style={{ textDecoration: 'none', color: 'white' }}>
                 Call Now
@@ -69,18 +58,7 @@ const AreasPage = ({ pageTitle, ...otherProps }) => {
           </Col>
         </Row>
         </Container>
-        <h2 className="text-center">{thirdHeading}</h2>
-        <Container>
-          <p>
-            {paraTwo}
-            <ul>
-              <li>Your vehicle location.</li>
-              <li>Correct tyre size.</li>
-              <li>Your choice of budget, medium or premium tyre.</li>
-              <li>Your phone number.</li>
-            </ul>
-          </p>
-        </Container> 
+       
       </section> 
     </>
   )

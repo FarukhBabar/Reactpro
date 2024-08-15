@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom'
 
 const blog1 = () => {
   return (
-    <div className='container' style={{marginTop: '150px'}}>
+    <>
+    <div className='blog2img  ms-0' style={{marginTop: '142px'}}>
+      
+         <img src='/Images/576x288-protyre-fitter1.jpg' className='blog2img '  />
+         </div>
+    <div className='container' >
       <h2 className='text-center'>Tips for Choosing the Right Mobile Tyre Fitting Service</h2>
       <p>
       Are you fed up with your tyre problems and looking for a solution to ease your worries? Tyre-related problems disrupt travel routines and affect work, causing unexpected stress and incidents. It can occur for many reasons, like lack of maintenance, extreme weather, and bad road conditions, but finding the solution is another task for a person. <Link to='https://protyrefitters.co.uk/'>Pro Tyre Fitters </Link> is a platform that deals with all tyre-related problems and provides the best quick solutions. Our professionals are ready 24/7 to deal with the emergency. Here are some tips to help you choose the right mobile tyre fitting service for your vehicle.
@@ -36,6 +41,7 @@ We provide on-site tyre service to save you the burden of towing a stranded vehi
 <h3>Choose the best mobile tyre service from Pro Tyre Fitters</h3>
 <p>Pro Tyre Fitters aims to provide the best tyre service and be part of your journey. We help you choose the best mobile tyre service for your vehicle. Our experts are highly trained to handle tyre problems big and small, from maintenance to <Link to='https://protyrefitters.co.uk/services/tyre-replacement'> tyre replacement,</Link> and make sure the problem doesn't reoccur. We aim to make your journey reliable and safe, helping you reach your destination. Our professionals will reach your location to solve this problem at your home, workplace, and roadside. They provide excellent services beyond the boundaries of time and space. To reduce financial stress, we provide all the services at a very affordable price, which reduces the burden on your pocket. Contact our customer care officer and resolve your tyre-related issues.</p>
     </div>
+        </>
   )
 }
 

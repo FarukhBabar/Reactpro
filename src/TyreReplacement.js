@@ -50,7 +50,7 @@ const TyreReplacement = () => {
       </Helmet>
 
      <ServicePage
-        mergedHeaderStyle="tr"
+        mergedHeaderStyle="tr tyrereplacment"
         imgOne="/images/tr1.png"
         imgTwo="/images/tr2(1).png"
         imgThree="/images/tr2(2).png"

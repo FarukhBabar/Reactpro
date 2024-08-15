@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {
-  MDBCol,
+  
   MDBContainer,
   MDBRow,
 } from "mdb-react-ui-kit";
@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import Accordion from 'react-bootstrap/Accordion';
 import { useCanonical } from "./canonical";
-import FAQ from "./assets/images/banners/FAQ.jpg";
+import FAQ from "./assets/images/banners/FAQnew.jpg";
 
 export default function WithContactForm() {
   const { setCanonicalUrl } = useCanonical();

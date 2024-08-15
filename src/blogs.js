@@ -57,7 +57,7 @@ function BlogPage() {
         <title id='meta-title'>Car Care Insights: Top Tips & Advice for Vehicle Owners</title>
         <link rel="canonical" href="https://protyrefitters.co.uk/blogs" />
         <meta name="description" id='meta-description' content="Explore our blog for expert car care tips, maintenance advice, and repair guides. Stay updated with the latest insights to keep your vehicle in top condition."/>
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       {/* Banner Section */}
       <header className='headerStyle'  style={{ backgroundImage: `url(${Blogs})` }}>
@@ -73,27 +73,28 @@ function BlogPage() {
                 </div>
             </div>
         </Row>
-        <div className='para-width mx-auto'><p className='text-center'>Read the informative, technical and most usful blogs with all the information you need abot tyre fitting.</p></div>
+        <div className='para-width mx-auto'><p className='text-center'>Read the informative, technical and most useful blogs with all the information you need about tyre fitting.</p></div>
      </div>
      
      <Container className='mb-3'>
       <Row className="justify-content-center">
         <Col md={6} className="image-container mt-3">
-          <img src="images/img-11.png" alt="Image 1" className="img-fluid rounded" />
+          <Link to="/blogs/tips-tor-choosing-the-right-mobile-tyre-fitting-service" ><img src="images/img-11.png" alt="Image 2" className="img-fluid rounded" /></Link>
           <div className="text-container">
-            <h2>Tips for Choosing the Right Mobile Tyre Fitting Service</h2>
-            <p style={{width: '90%', textAlign: 'justify'}}>Are you fed up with your tyre problems and looking for a solution to ease your worries? Tyre-related problems disrupt travel routines and affect work, causing unexpected stress and incidents. It can occur for many reasons, like lack of maintenance, extreme weather, and bad road conditions, but finding the solution is another task for a person. Pro Tyre Fitters is a platform that deals with all tyre-related problems and provides the best quick solutions. Our professionals are ready  24/7 to deal with the emergency. Here are some tips to help you choose the right mobile tyre fitting service for your vehicle.</p>
+           <Link to="/blogs/tips-tor-choosing-the-right-mobile-tyre-fitting-service"className='text-dark ' ><h2 className='mt-3'>Tips for Choosing the Right Mobile Tyre Fitting Service</h2></Link>
+            <p style={{width: '90%', textAlign: 'justify'}}>Are you fed up with your tyre problems and looking for a solution to ease your worries? Tyre-related problems disrupt travel routines and affect work, causing unexpected stress and incidents. </p>
             <Link to="/blogs/tips-tor-choosing-the-right-mobile-tyre-fitting-service" className='btn btn-success'>Read More</Link>
           </div>
         </Col>
-        {/* <Col md={6} className="image-container mt-3">
-          <img src="images/img-11.jpg" alt="Image 2" className="img-fluid" />
+        <Col md={6} className="image-container mt-3">
+        <Link to="/blogs/explore-the-World-of-Mobile-Tyre-Fitting-with-Pro-Tyre-Fitters"><img src="images/blog 2.jpg" alt="Image 1" className="img-fluid rounded" /></Link>  
           <div className="text-container">
-            <h2>Another Heading Goes Here</h2>
-            <p style={{width: '90%', textAlign: 'justify'}}>Another kind of subheading</p>
-            <Link to="/" className='btn btn-success'>Read More</Link>
+         <Link to="/blogs/explore-the-World-of-Mobile-Tyre-Fitting-with-Pro-Tyre-Fitters"className='text-dark' ><h2  className='mt-3'>Explore the World of Mobile Tyre Fitting with Pro Tyre Fitters</h2></Link>  
+            <p style={{width: '90%', textAlign: 'justify'}}>Are you annoyed with tyres and looking to figure out the answer to relieve your concerns? Tyre-related problems destroy travel routines, affect their work, and cause unexpected stress and incidents.
+</p>
+            <Link to="/blogs/explore-the-World-of-Mobile-Tyre-Fitting-with-Pro-Tyre-Fitters" className='btn btn-success'>Read More</Link>
           </div>
-        </Col> */}
+        </Col>
       </Row>
     </Container>
 

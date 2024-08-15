@@ -54,6 +54,7 @@ import Hoddesdon from "./areas/Hoddesdon";
 import Blog1 from "./blog1";
 import ErrorPage from "./ErrorPage";
 import { CanonicalProvider } from "./canonical";
+import Blog2 from "./Blog2";
 
 const App = () => {
   useEffect(() => {
@@ -117,7 +118,7 @@ const App = () => {
             <Route path="/areas/potters-bar" element={<PottersBar />} />
             <Route path="/areas/ilford" element={<Ilford />} />
             <Route path="/areas/edmonton" element={<Edmonton />} />
-            <Route path="/areas/wangsted" element={<Wangsted />} />
+            <Route path="/areas/wanstead" element={<Wangsted />} />
             <Route path="/areas/chingford" element={<Chingford />} />
             <Route path="/areas/woodford-green" element={<WoodfordGreen />} />
             <Route path="/areas/barnet" element={<Barnet />} />
@@ -127,6 +128,10 @@ const App = () => {
             <Route
               path="/blogs/tips-tor-choosing-the-right-mobile-tyre-fitting-service"
               element={<Blog1 />}
+            />
+            <Route
+              path="/blogs/explore-the-World-of-Mobile-Tyre-Fitting-with-Pro-Tyre-Fitters"
+              element={<Blog2 />}
             />
           </Routes>
         </CanonicalProvider>

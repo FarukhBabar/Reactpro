@@ -1,9 +1,22 @@
 import React from 'react'
 import AreasPage from "../AreasPage";
-import About1 from "../assets/images/about1.png";
+import About1 from "../assets/images/about1.jpg";
 import { Helmet } from 'react-helmet';
 
 const Wangsted = () => {
+  const paraOneContent = `
+   
+Reduce your tyre-related stress with our tyre specialist. Wanstead is a busy city in London and hard to drive. We provide outstanding<strong> mobile tyre services in Wanstead </strong>to make your travel easy. We understand the value of a commute and how tyre problems destroy the essence of traveling. 
+
+
+ <br/>
+ProTyre Fitters aims to provide unbeatable tyre service to its customers. We design our company with experienced professionals who can easily tackle tyre-related problems. We also provide branded tyres and updated tools and kits. 
+<br/>
+
+We cover all minor to major issues related to your vehicle's tyre, whether a van, small truck, or car. Our service providers are available 24 hours a day, 7 days a week, to resolve tyre-related problems and provide <strong>mobile tyre fitting, mobile tyre repair, or mobile tyre replacement </strong>  services.
+<br/>
+ Call us anytime for<strong>  mobile tyre services in Wanstead, London.</strong> Our professionals arrive in 30 to 40 minutes to provide the required service. 
+  `;
   return (
     <>
     <Helmet>
@@ -13,26 +26,16 @@ const Wangsted = () => {
           id='meta-description'
           content="Descripion of Areas Page"
         />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <AreasPage
-      mergedHeaderStyle="tr"
+      mergedHeaderStyle="tr areas"
       // Text
-      pageTitle="Edmonton"
-      firstHeading='Amica & Commode Mobile Tyre Fitting Luton.'
-      secondHeading="Mobile Tyre Fitting in & Around Luton"
+    
+      firstHeading='24/7 Mobile tyre service Wanstead, London'
+      // secondHeading="Mobile Tyre Fitting in & Around Luton"
       img1={About1}
-      lione='One'
-      litwo='Two'
-      lithree='Three'
-      lifour='Four'
-      lifive='Five'
-      lisix='Six'
-      paraOne='Other mobile fitters may have settled for second place in terms of popularity, but our Olympus Mobile Tyre Fitting staff always strives for first place.'
-      thirdHeading='The Best Hassle-free Tyre Services at Your Location.'
-      paraTwo='For a prompt service to get your car or van back on the road, we at Olympus Mobile Tyre Fitting need a few vehicle details from you.
-
-      Our tyre fitters aim is to get your tyres fixed or replaced quickly. To book Olympus tyre services, please provide us with the following details:'
+      paraOne={paraOneContent}
       />
     </>
   )

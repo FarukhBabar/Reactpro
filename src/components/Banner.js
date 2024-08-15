@@ -52,7 +52,7 @@ const Banner = () => {
                     <span className="d-block text-white">
                       For Booking Rides
                     </span>
-                    <h5><a href="tel: 07441428174" className="tc-text-color" style={{textDecoration:'none'}}>+07441428174</a></h5>
+                    <h5><a href="tel: 07441428174" className="tc-text-color" style={{textDecoration:'none'}}>07441428174</a></h5>
                     <span className="d-block text-white">
                       We are present 24/7
                     </span>
