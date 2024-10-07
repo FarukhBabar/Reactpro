@@ -178,9 +178,18 @@ function Navbar({ activeClassName, ...props }) {
                     </Link>
                   </div>
                 </div>
-
+  <div>
+                       <Link to="/areas" ><button
+                          className="nav-link "
+                          type="button"
+                        
+                          
+                        >
+                          Areas
+                        </button></Link>
+                      </div>
                 {/* Areas */}
-                <div className="nav-item dropdown">
+                {/* <div className="nav-item dropdown">
                   <button
                     className="btn dropdown-toggle text-white px-0"
                     type="button"
@@ -217,7 +226,7 @@ function Navbar({ activeClassName, ...props }) {
                     <Link to="/areas/woodgreen" className="dropdown-item" onClick={handleNavCollapse}>London - Woodgreen</Link>
                     <Link to="/areas/hoddesdon" className="dropdown-item" onClick={handleNavCollapse}>London - Hoddesdon</Link>
                   </div>
-                </div>
+                </div> */}
                 {/* Areas */}
 
                 <NavLink
@@ -389,8 +398,18 @@ function Navbar({ activeClassName, ...props }) {
                         </div>
                       </div>
 
+                      <div>
+                       <Link to="/areas" ><button
+                          className="nav-link "
+                          type="button"
+                        
+                          
+                        >
+                          Areas
+                        </button></Link>
+                      </div>
                       {/* Areas */}
-                      <div className="nav-item dropdown">
+                      {/* <div className="nav-item dropdown">
                         <button
                           className="nav-link dropdown-toggle"
                           type="button"
@@ -401,7 +420,7 @@ function Navbar({ activeClassName, ...props }) {
                         </button>
                         <div className="dropdown-menu m-0">
                           {/* Dropend */}
-                          <div className="btn-group px-4 dropdown-hover">
+                          {/* <div className="btn-group px-4 dropdown-hover">
   <button className="btn harea-btn">
     <div className="d-flex justify-content-center align-items-center">
       Hertfordshire <small><i className="fa-solid fa-greater-than fa-3xs"></i></small>
@@ -426,12 +445,12 @@ function Navbar({ activeClassName, ...props }) {
     <Link to="/areas/cuffley" className="dropdown-item">Cuffley</Link>
     <Link to="/areas/ware" className="dropdown-item">Ware</Link>
   </ul>
-</div>
+</div> */}
 
                           {/* Dropend */}
 
                           {/* Dropend */}
-                          <div className="btn-group px-4 dropdown-hover">
+                          {/* <div className="btn-group px-4 dropdown-hover">
                               <div className="d-flex justify-content-center align-items-center">
                             <button className="btn harea-btn">
                                 London  <i className="fa-solid fa-greater-than fa-3xs"></i>
@@ -447,10 +466,10 @@ function Navbar({ activeClassName, ...props }) {
                               <Link to="/areas/woodgreen" className="dropdown-item">Woodgreen</Link>
                               <Link to="/areas/hoddesdon" className="dropdown-item">Hoddesdon</Link>
                             </ul>
-                          </div>
+                          </div> */}
                           {/* Dropend */}
-                        </div>
-                      </div>
+                        {/* </div>
+                      </div> */}
 
                       {/* Areas */}
                       <NavLink

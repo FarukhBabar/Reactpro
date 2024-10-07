@@ -55,6 +55,7 @@ import Blog1 from "./blog1";
 import ErrorPage from "./ErrorPage";
 import { CanonicalProvider } from "./canonical";
 import Blog2 from "./Blog2";
+import Areapagenew from "./Areapagenew";
 
 const App = () => {
   useEffect(() => {
@@ -124,6 +125,7 @@ const App = () => {
             <Route path="/areas/barnet" element={<Barnet />} />
             <Route path="/areas/woodgreen" element={<Woodgreen />} />
             <Route path="/areas/hoddesdon" element={<Hoddesdon />} />
+             <Route path="/areas" element={<Areapagenew />} />
             {/* Blog */}
             <Route
               path="/blogs/tips-tor-choosing-the-right-mobile-tyre-fitting-service"

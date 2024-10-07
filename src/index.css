@@ -16,7 +16,24 @@ code {
   overflow-y: auto;
   margin-top: 0px !important;
 }
+.newarea{
+ width: 100%;
+ margin-top: 90px;
 
+}
+.mapimg{
+  width: 60%;
+height: 400px;
+margin-top: 50px;
+
+}
+.arealist{
+  list-style: none;
+  padding: 0px;
+}
+.headingarea{
+  cursor: pointer;
+}
 
 .navbar-nav .nav-link {
   color: #9f9c9c ;

@@ -1333,6 +1333,12 @@ footer {
         position: absolute;
         top: 10px;
     }
+     .mapimg{
+  width: 60%;
+height: 200px !important;
+margin-top: 50px;
+
+}
 }
 
 @media (max-width: 575px) {
@@ -1346,6 +1352,12 @@ footer {
         position: absolute;
         top: 30px;
     }
+     .mapimg{
+  width: 60%;
+height: 200px !important;
+margin-top: 50px;
+
+}
 }
 
 @media (max-width: 429px) {
@@ -1371,8 +1383,18 @@ footer {
     width: 500px !important;
     margin-top: 50px !important;
   }
-}
+  .mapimg{
+  width: 60%;
+height: 200px !important;
+margin-top: 50px;
 
+}
+}
+    .blog2img{
+    width: 100%;
+    margin-top: 50px !important;
+    /* height: 500px; */
+  }
 .dropdown-hover .harea-menu {
     display: none;
     
